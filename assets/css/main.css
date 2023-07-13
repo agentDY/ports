@@ -1753,6 +1753,7 @@ input, select, textarea {
 				align-items: center;
 				cursor: pointer;
 				text-transform: uppercase;
+				margin-top:20px;
 			 }
 			 
 
@@ -2091,11 +2092,11 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #fff !important;
-				background: #383838;
+				background: linear-gradient(143deg, #48cae4bf 0%, #f87aff8e 100%);
 			}
 
 			#nav a.active {
-				background: #484848;
+				background: linear-gradient(143deg, #48cae484 0%, #f87aff38 100%);
 			}
 
 				#nav a.active:before {
@@ -2117,7 +2118,7 @@ input, select, textarea {
 	}
 
 	#top {
-		padding: 8em 0 10em 0;
+		padding: 6em 0 5em 0;
 		text-align: left;
 	}
 
@@ -2412,7 +2413,8 @@ input, select, textarea {
 				}
 
 					#nav a:hover {
-						background-color: transparent;
+						/* background-color: transparent; */
+						background-color: lightpink;
 					}
 
 		/* Articles */
@@ -2478,3 +2480,5 @@ input, select, textarea {
 		color: #0066cc;
 		border: solid 2px #18018a;
 		}
+
+	#resume { text-decoration:none;}
