@@ -2478,11 +2478,10 @@ input, select, textarea {
 
 	.btn-skls{
 		font-family: Roboto, sans-serif;
-		font-weight: 600;
-		font-size: 14px;
+		font-weight: 600;	
 		color: #3f0c82;
 		background-color: #ffffff;
-		padding: 10px 40px;
+		padding: 7px 30px;
 		border: 2px solid #0066cc;
 		box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
 		border-radius: 50px;
